@@ -40,6 +40,7 @@ const deleteTask = (index) => {
 };
 
     return (
+        <div className='center'>
         <div className="min-h-screen flex flex-col font-mono items-center justify-center container">
             <div className="max-w-md w-full space-y-8 profile-container">
                 <div>
@@ -74,7 +75,7 @@ const deleteTask = (index) => {
                                         <div className="flex items-center mt-1">
                                         <button className="mr-2 text-sm p-3 text-white-300 bg-gray-600 hover:bg-gray-700"
                                                 onClick={() => handleLike(index)}>
-                                                Like({q.likes}) ♥
+                                                Like({q.likes >=1 ? 1 : 0}) ♥
                                             </button>
                                             <button
                                                 className="mr-2 text-sm p-3 text-white-300 bg-gray-600 hover:bg-gray-700"
@@ -111,6 +112,7 @@ const deleteTask = (index) => {
                     )}
                 </div>
             </div>
+        </div>
         </div>
     );
 };

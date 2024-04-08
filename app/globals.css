@@ -8,14 +8,21 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-.container {
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('img/bgr_img.jpg');
-  color: white;
-  background-color: black;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  overflow-y: auto;
+}
+
+.container {
+  width: 100vw;
+  color: white;
+  background-size: cover;
+  background-position: center;
 }
 
 .signin-container {
