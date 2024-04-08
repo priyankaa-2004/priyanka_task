@@ -40,7 +40,7 @@ const deleteTask = (index) => {
 };
 
     return (
-        <div className='center'>
+        <div className="center">
         <div className="min-h-screen flex flex-col font-mono items-center justify-center container">
             <div className="max-w-md w-full space-y-8 profile-container">
                 <div>
@@ -113,7 +113,7 @@ const deleteTask = (index) => {
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     );
 };
 

@@ -33,7 +33,7 @@ const SignInSignUpForm = () => {
             {isLoggedIn ? (
                 <ProfilePage fullName={fullName} email={email} />
             ) : (
-            <div className='center'>
+            <div className="center">
                 <div className="min-h-screen flex flex-col font-mono items-center justify-center container">
                     <h1 className='font-bold text-center text-6xl mb-10'>WELCOME TO CIPHER</h1>
                     <div className="max-w-md w-full space-y-8 signin-container">
@@ -77,7 +77,7 @@ const SignInSignUpForm = () => {
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
             )}
         </>
     );
